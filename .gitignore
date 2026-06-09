@@ -1,0 +1,33 @@
+# Data folders - do not commit
+pdb_files/
+csv_files/
+processed_data/
+predictions/
+checkpoints/
+archived_files/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Spyder
+.spyproject/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (large files - share separately)
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log

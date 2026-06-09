@@ -1,0 +1,18 @@
+{
+  "pdb_id": "1A7S",
+  "date": "2025-12-19",
+  "architecture": "Takens-Based Transformer (MARINA)",
+  "sequence_length": 227,
+  "metrics": {
+    "rmsd_A": 1.01,
+    "mean_per_residue_rmsd_A": 0.62,
+    "notes": "N-terminus (residues 2-6) elevated due to terminal conformational freedom; body RMSD ~0.5A"
+  },
+  "training": {
+    "hardware": "Intel i7 CPU, 32GB RAM",
+    "parameters": 15000000,
+    "dataset": "Small proof-of-concept set with duplication strategy",
+    "target_rmsd_A": 8.0
+  },
+  "note": "Proof of concept demonstrating architectural viability. Generalisation limited by small training set."
+}

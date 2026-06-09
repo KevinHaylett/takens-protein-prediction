@@ -4,6 +4,24 @@
 
 ---
 
+## Why This Repository Exists
+
+This repository exists for three reasons.
+
+**First**, it provides a complete, reproducible implementation of a Takens-based approach to protein structure prediction. The code, training pipeline, example datasets, and evaluation tools are all included so that others can independently test, reproduce, modify, and extend the work.
+
+**Second**, it serves as a public record of an alternative architectural approach. Modern protein structure prediction is dominated by attention-based systems and increasingly large computational budgets. The present work explores a different path: treating protein folding as a nonlinear dynamical system and reconstructing conformational geometry using Takens delay embeddings. Whether this approach ultimately succeeds or fails at scale is a question for experiment rather than speculation.
+
+**Third**, it is intended as an open invitation to further investigation. The current results were obtained on consumer hardware using a relatively small training set and should be viewed as a proof-of-concept demonstration of architectural viability rather than a final solution. The repository is therefore offered as a foundation upon which others may build, test, critique, and improve.
+
+The central claim of this repository is modest: a Takens-based architecture can reconstruct coherent protein geometry from amino-acid sequences under the training conditions reported here. Broader questions of generalisation, scaling behaviour, and comparative performance remain open and are expected to require substantially larger datasets and computational resources.
+
+Science progresses through reproducible artefacts. Whatever the eventual outcome of this line of research, the implementation, methods, results, and assumptions are preserved here in a form that can be independently examined and evaluated.
+
+
+
+---
+
 ## The Result
 
 ![1A7S Structure Comparison](results/1A7S_comparison.png)
