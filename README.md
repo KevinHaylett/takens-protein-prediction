@@ -146,15 +146,15 @@ takens-protein-folding/
 pip install torch numpy pandas matplotlib biopython
 ```
 
-### 2. Set your paths
+### 2. Set your paths (shown relative to root in windows)
 
 Edit `config.py`:
 
 ```python
-PDB_DIR      = "/path/to/your/pdb_files"
-CSV_DIR      = "/path/to/your/csv_files"
-TRAINING_DIR = "/path/to/your/processed_data"
-CHECKPOINT_DIR = "/path/to/your/checkpoints"
+PDB_DIR      = "path/to/your/pdb_files"
+CSV_DIR      = "path/to/your/csv_files"
+TRAINING_DIR = "path/to/your/processed_data"
+CHECKPOINT_DIR = "path/to/your/checkpoints"
 ```
 
 ### 3. Prepare your data
