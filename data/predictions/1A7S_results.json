@@ -1,0 +1,13 @@
+{
+  "pdb_id": "1A7S",
+  "date": "2026-06-09T00:17:38.102289",
+  "architecture": "Takens-Based Transformer (MARINA)",
+  "sequence_length": 221,
+  "metrics": {
+    "rmsd_A": 0.9868000149726868,
+    "mean_per_residue_rmsd_A": 0.6154,
+    "gdt_ts": 98.5294,
+    "tm_score": 0.9833
+  },
+  "notes": "Proof of concept - small training set"
+}
